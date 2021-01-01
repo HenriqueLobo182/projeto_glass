@@ -101,6 +101,10 @@ nav#menu li {
     background-color: #dddddd;
     padding: 10px;
     margin: 2px;
+    -webkit-transition: background-color 1s;
+    -noz-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    -ns-transition: background-color 1s;
     transition: background-color 1s;
 }
 
@@ -120,4 +124,27 @@ nav#menu a {
 nav#menu a:hover {
     color: #ffffff;
     text-decoration: underline;
+}
+
+section#corpo {
+    display: block;
+    width: 520px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
 }
